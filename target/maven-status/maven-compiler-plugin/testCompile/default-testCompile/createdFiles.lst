@@ -1,0 +1,4 @@
+com\smartclient\AppTest.class
+com\smartclient\TestRunner.class
+com\smartclient\Hooks.class
+com\smartclient\steps\MyStepdefs.class

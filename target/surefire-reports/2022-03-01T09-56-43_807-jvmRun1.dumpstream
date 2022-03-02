@@ -1,0 +1,329 @@
+# Created at 2022-03-01T09:57:13.116
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2022-03-01T09:57:17.996
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:17.996
+Unexpected IOException with stream:   @Smoke
+
+
+# Created at 2022-03-01T09:57:17.996
+Unexpected IOException with stream:   Scenario: Assert that results contains more than 12 items [90m# smartclient.feature:4[0m
+
+
+# Created at 2022-03-01T09:57:17.996
+Unexpected IOException with stream:     [32mGiven [0m[32mI am on homepage[0m                                  [90m# MyStepdefs.iAmOnHomepage()[0m
+
+
+# Created at 2022-03-01T09:57:17.996
+Unexpected IOException with stream:     [32mWhen [0m[32mI select Tile sort and filtering[0m                   [90m# MyStepdefs.iSelectTileSortAndFiltering()[0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:     [32mAnd [0m[32mI select "[0m[32m[1ma[0m[32m" in animal field[0m                        [90m# MyStepdefs.iSelectInAnimalField(String)[0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:     [32mAnd [0m[32mMax life span set to  [0m[32m[1m40[0m                            [90m# MyStepdefs.maxLifeSpanSetTo(int)[0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:     [31mAnd [0m[31mSort order by "<Life Span>”[0m                         [90m# MyStepdefs.sortOrderByLifeSpan()[0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Life Span')]"}
+        (Session info: chrome=98.0.4758.102)
+      For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+      Build info: version: '4.0.0', revision: '3a21814679'
+      System info: host: 'DELL7480', ip: '172.24.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [161ea996b3245c529fe0a077597e9988, findElement {using=xpath, value=//div[contains(text(),'Life Span')]}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51416/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+      Session ID: 161ea996b3245c529fe0a077597e9988
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+      	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+      	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+      	at com.sun.proxy.$Proxy25.click(Unknown Source)
+      	at com.smartclient.utility.Utility.clickOnElement(Utility.java:53)
+      	at com.smartclient.pages.TileSortFiltering.selectLifeSpan(TileSortFiltering.java:73)
+      	at com.smartclient.steps.MyStepdefs.sortOrderByLifeSpan(MyStepdefs.java:41)
+      	at ?.And Sort order by "<Life Span>”(smartclient.feature:9)
+      [0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:     [36mAnd [0m[36mSelect checkbox  to Ascending[0m                       [90m# MyStepdefs.selectCheckboxToAscending()[0m
+
+
+# Created at 2022-03-01T09:57:18.011
+Unexpected IOException with stream:     [36mThen [0m[36mAssert that results[0m                                [90m# MyStepdefs.assertThatResults()[0m
+
+
+# Created at 2022-03-01T09:57:18.303
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.303
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2022-03-01T09:57:18.303
+Unexpected IOException with stream: [31msmartclient.feature:4 [0m
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: # Scenario: Assert that results contains more than 12 items
+
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: 1
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: )
+
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: 7
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream:  Steps (
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: , 
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: [36m2 skipped[0m
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: , 
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: [32m4 passed[0m
+
+# Created at 2022-03-01T09:57:18.318
+Unexpected IOException with stream: )
+
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 0m
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 31.766s
+
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Life Span')]"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DELL7480', ip: '172.24.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [161ea996b3245c529fe0a077597e9988, findElement {using=xpath, value=//div[contains(text(),'Life Span')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Krishna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51416/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 161ea996b3245c529fe0a077597e9988
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.334
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+
+# Created at 2022-03-01T09:57:18.350
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy25.click(Unknown Source)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at com.smartclient.utility.Utility.clickOnElement(Utility.java:53)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at com.smartclient.pages.TileSortFiltering.selectLifeSpan(TileSortFiltering.java:73)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 	at com.smartclient.steps.MyStepdefs.sortOrderByLifeSpan(MyStepdefs.java:41)
+
+# Created at 2022-03-01T09:57:18.365
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.381
+Unexpected IOException with stream: 	at ?.And Sort order by "<Life Span>”(smartclient.feature:9)
+
+# Created at 2022-03-01T09:57:18.381
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.381
+Unexpected IOException with stream: 
+
+
+# Created at 2022-03-01T09:57:18.428
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
